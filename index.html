@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content = "width=device-width, initial-scale=1">
+      <title>Jogo da forca</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="sweetalert2.min.css">
+      
+  </head>
+<body>
+    <header>
+      <h1 class="titulo-do-jogo">Jogo da Forca</h1>
+    </header>
+    <div class="adicionar-palavra">
+      <label for="">
+        <input type="text" id="name" placeholder="Adicionar palavra">
+        <button class="send">Enviar</button>
+
+      </label>
+    </div>
+    <div class="jogar-novamente"></div>
+    
+    <section>
+
+         <canvas class="canvas_front" width="400" height="300"></canvas>
+        <div id = 'palavra' class="letras-flex"> 
+
+      </div>
+    </section>
+
+    <div id="novo"></div>
+
+    <section id="letras" class="botao-flex">
+    </section>
+    
+    <footer>
+      <p>Feito por  Douglas Soares Santos</p>
+      <a href="https://www.linkedin.com/in/douglas-santos-8a8154218/">
+
+        <img src="/challenge-oracle-hangman-ptbr-main/icons/linkedin.png" alt="">
+
+      </a>
+
+      <a href="https://github.com/Dass99">
+
+        <img src="/challenge-oracle-hangman-ptbr-main/icons/placa-do-github.png">
+
+      </a>
+    </footer>
+    <script src="canvas.js"></script>
+    <script src="forca.js"></script>
+    
+</body>
+</html>
